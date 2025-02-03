@@ -1,28 +1,81 @@
 body{
-    max-width: 1500px;
     margin:10%;
     justify-content: center;
     align-items: center;
     
 }
 
+
+h1{
+    font-size:44px;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+h2{
+    font-size:36px;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+
+h3{
+    font-size:22px;
+    font-family: poppins;
+    font-weight: 600; 
+}
+
+h4{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+p{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+li{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14;
+    list-style-type: none;
+    padding-bottom: 20px;
+    margin-left: -35px;
+
+}
+
 nav{
     display:flex;
-    width: auto;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
     width:185px;
 }
 
-.navigation{
+.nav-links{
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     margin: 20px;    
-    gap: 40px;
+    gap: 100px;
+}
+
+.nav-buttons{
+    justify-content: flex-end;
+}
+
+.sign-in{
+    border: solid;
+    border-color: #BCD0E5;
+    border-width: 2px;
+    color: #173A56;
+    background-color: #ffffff;
 }
 
 .intro{
@@ -34,11 +87,12 @@ nav{
 .intro .text {
     width:500px;
     height:300px;
+    margin-right: 40px;
 }
 
 img{
     max-width:600px;
-    max-height: 400px;
+    max-height: 500px;
 }
 
 button{
@@ -47,23 +101,28 @@ button{
     border: none;
     border-radius: 5px;
     padding: 10px 25px;
+    font-family: poppins;
+    border: solid;
+    border-color: #FF9900;
+    border-width: 2px;
 }
 
 
 .we-design-tools{
     display: flex;
-    width: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 50px 0px;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 70px 0px 100px 0px;
 }
 
 .service{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    width: 240px;
+    align-content: space-around;
+    min-width: 240px;
     margin: 30px;
     padding: 0px;
 }
@@ -112,6 +171,24 @@ button{
 }
 
 
+hr{
+   margin-bottom: 100px; 
+   border: 1px solid #bcd0e567;
+}
+
 footer{
     display: flex;
+    justify-content:space-around;
+    align-items: baseline;
+
+}
+
+.sign-up-box{
+    width: 300px;
+    height: 40px;
+    border: solid;
+    border-width: 2px;
+    border-color: #BCD0E5;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
