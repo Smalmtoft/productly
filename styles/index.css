@@ -49,28 +49,6 @@ button{
     padding: 10px 25px;
 }
 
-h1{
-    font-size:44px;
-    font-family: poppins;
-    font-weight: 700;
-}
-
-h2{
-    font-size:36px;
-    font-family: poppins;
-    font-weight: 700;
-}
-
-
-h3{
-    font-size:22px;
-    font-family: poppins;
-    font-weight: 600; 
-}
-
-p{
-    font-family: poppins;
-}
 
 .we-design-tools{
     display: flex;
