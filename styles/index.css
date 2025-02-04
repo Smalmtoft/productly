@@ -1,10 +1,13 @@
 body{
-    margin:10%;
+    margin:5%;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 
+.logo{
+    width:185px;
+    margin: 0px;
+}
 
 h1{
     font-size:44px;
@@ -35,6 +38,7 @@ p{
     font-family: poppins;
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.6;
     margin-bottom: 40px;
 }
 
@@ -58,26 +62,26 @@ li:hover{
 
 nav{
     display:flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: baseline;
     position: sticky;
 }
 
-.logo{
+.nav-logo{
     width:185px;
     margin: 0px;
+    align-items: start;
 }
 
 .nav-links{
     list-style: none;
     display: flex;
-    align-items: center;
     margin: 20px;    
-    gap: 100px;
+    gap: 80px;
 }
 
 .nav-buttons{
-    justify-content: flex-end;
+    padding: 40px;
 }
 
 .sign-in{
@@ -88,16 +92,6 @@ nav{
     background-color: #ffffff;
 }
 
-.intro{
-    display: flex;
-    margin-top: 80px;
-    align-items: center;
-}
-
-.intro .text {
-    width:500px;
-    height:300px;
-}
 
 .intro-buttons{
     display: flex;
@@ -127,8 +121,7 @@ nav{
 
 img{
     max-width:600px;
-    max-height: 500px;
-    margin: 80px;
+    margin: 50px;
 }
 
 button{
@@ -141,6 +134,7 @@ button{
     border: solid;
     border-color: #FF9900;
     border-width: 2px;
+    margin: 5px;
 }
 
 button:hover{
@@ -164,59 +158,63 @@ button:hover{
     text-align: center;
 }
 
+
 .service{
     display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    min-width: 240px;
-    margin: 30px;
-    padding: 0px;
-}
-
-.example{
-    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    align-content: space-around;
+    justify-content: space-around;
+    margin: 40px 0px;
     width: 100%;
 }
 
-.item{
+.service-items{
     display: flex;
-    justify-content: center;
-    width: 240px;
-    margin: 200px;
-    padding: 20px;
+    flex-direction: column;
+    align-content: space-around;
+    max-width: 240px;
+    margin: 10px;
+    padding: 0px;
 }
 
-.icon{
+.service-icon{
     width: 50px;
     margin: 5px;
 }
 
 
-.design-professionals{
+.block{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 80px;
     align-items: center;
+    justify-content: center;
 } 
-
-
-.product-managers{
-    display: flex;
-    margin-top: 80px;
-    align-items: center;
-}
-
-.marketers{
-    display: flex;
-    margin-top: 80px;
-    align-items: center;
-}
 
 .content{
     margin: 0px;
+    max-width: 500px;
 }
 
+.check-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -40px;
+}
+
+.check-icon{
+    width: 35px;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
 
 hr{
    margin-bottom: 100px; 
@@ -226,7 +224,7 @@ hr{
 
 footer{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: baseline;
 
 }
