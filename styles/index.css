@@ -1,7 +1,11 @@
 body{
-    margin:5%;
-    justify-content: center;
-    align-items: center;    
+    max-width: 1500px;
+    width: 100%;
+    margin: auto;    
+}
+
+main, nav, footer{
+    margin: 5%;
 }
 
 .logo{
@@ -9,120 +13,63 @@ body{
     margin: 0px;
 }
 
+
 h1{
     font-size:44px;
-    font-family: poppins;
+    font-family: "Poppins", serif;
     font-weight: 700;
 }
 
+
 h2{
     font-size:36px;
-    font-family: poppins;
+    font-family: "Poppins", serif;
     font-weight: 700;
 }
 
 
 h3{
     font-size:22px;
-    font-family: poppins;
+    font-family: "Poppins", serif;
     font-weight: 600; 
 }
 
+
 h4{
-    font-family: poppins;
+    font-family: "Poppins", serif;
     font-weight: 700;
     font-size: 16px;
 }
 
+
 p{
-    font-family: poppins;
+    font-family: "Poppins", serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 40px;
 }
 
+
 li{
-    font-family: poppins;
+    font-family: "Poppins", serif;
     font-weight: 300;
     font-size: 14;
     list-style-type: none;
     padding-bottom: 20px;
     margin-left: -40px;
-
 }
+
 
 li:hover{
     color: #FF9900;
 }
 
+
 .pre-h2{
-    margin-bottom: -15px;
+    margin-bottom: -20px;
 }
 
-nav{
-    display:flex;
-    justify-content: flex-end;
-    align-items: baseline;
-    position: sticky;
-}
-
-.nav-logo{
-    width:185px;
-    margin: 0px;
-    align-items: start;
-}
-
-.nav-links{
-    list-style: none;
-    display: flex;
-    margin: 20px;    
-    gap: 80px;
-}
-
-.nav-buttons{
-    padding: 40px;
-}
-
-.sign-in{
-    border: solid;
-    border-color: #BCD0E5;
-    border-width: 2px;
-    color: #173A56;
-    background-color: #ffffff;
-}
-
-
-.intro-buttons{
-    display: flex;
-    align-items: baseline;
-    height: 50px;
-
-}
-
-.play-icon{
-    width: 15px;
-    height: 20px;
-    margin-left: 40px;
-    margin-right: 10px;
-}
-
-.watch-video{
-    font-family: poppins;
-    color: #FF9900;
-    text-decoration: underline;
-}
-
-.watch-video:hover{
-    font-family: poppins;
-    color: #173A56;
-    text-decoration: underline;
-}
-
-img{
-    max-width:600px;
-    margin: 50px;
-}
 
 button{
     background-color: #FF9900;
@@ -137,11 +84,81 @@ button{
     margin: 5px;
 }
 
+
 button:hover{
     background:#173A56;
     color: #ffffff;
     border: none;
   }
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.nav-logo{
+    width:185px;
+}
+
+.nav-links-buttons{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;    
+    gap: 80px;
+    margin-right: 40px;
+}
+
+
+.sign-in{
+    border: solid;
+    border-color: #BCD0E5;
+    border-width: 2px;
+    color: #173A56;
+    background-color: #ffffff;
+}
+
+
+.intro-buttons{
+    display: flex;
+    align-items: baseline;
+    height: 50px;
+}
+
+
+.play-icon{
+    width: 15px;
+    height: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+
+.watch-video{
+    font-family: poppins;
+    color: #FF9900;
+    text-decoration: underline;
+}
+
+
+.watch-video:hover{
+    font-family: poppins;
+    color: #173A56;
+    text-decoration: underline;
+}
+
+
+img{
+    max-width:600px;
+    margin: 50px;
+}
 
 
 .we-design-tools{
@@ -153,6 +170,7 @@ button:hover{
     flex-wrap: wrap;
     margin: 70px 0px 100px 0px;
 }
+
 
 .we-design-heading{
     text-align: center;
@@ -168,6 +186,7 @@ button:hover{
     width: 100%;
 }
 
+
 .service-items{
     display: flex;
     flex-direction: column;
@@ -176,6 +195,7 @@ button:hover{
     margin: 10px;
     padding: 0px;
 }
+
 
 .service-icon{
     width: 50px;
@@ -191,16 +211,20 @@ button:hover{
     justify-content: center;
 } 
 
+
 .content{
     margin: 0px;
     max-width: 500px;
 }
 
+
 .check-list{
     display: flex;
     flex-direction: column;
     margin-top: -40px;
+    max-width: 450px;
 }
+
 
 .check{
     display: flex;
@@ -209,12 +233,14 @@ button:hover{
     margin-bottom: -40px;
 }
 
+
 .check-icon{
     width: 35px;
     margin-left: 0px;
-    margin-right: 15px;
+    margin-right: 25px;
     margin-top: 30px;
 }
+
 
 hr{
    margin-bottom: 100px; 
@@ -222,12 +248,13 @@ hr{
    border: 1px solid #bcd0e567;
 }
 
+
 footer{
     display: flex;
     justify-content:space-between;
     align-items: baseline;
-
 }
+
 
 .sign-up-box{
     width: 300px;
